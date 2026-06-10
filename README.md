@@ -4,9 +4,12 @@
 
 Dưới đây là danh sách các bài tập đã hoàn thành:
 
-### 1. JavaScript Cơ Bản (Chỉ JS)
+### 1. Fashion Store (8/6/2026)
 
-### 2. JavaScript & Giao Diện Web (HTML + CSS + JS)
+### 2. Thực hành DOM trong GitBook
+
+### 3. Bài thực hành 04
+
 
 
 ## 🛠️ Công nghệ & Công cụ sử dụng
