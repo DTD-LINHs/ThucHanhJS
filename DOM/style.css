@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f9fa;
+    color: #2c3e50;
+}
+
+.box {
+    width: 250px;
+    height: 120px;
+    line-height: 120px;
+    margin: 30px auto;
+    background-color: #34495e;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease; 
+    cursor: pointer;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Các Class đặc biệt để JS thêm/bớt (Toggle) */
+.highlight-title {
+    color: #e74c3c;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.hidden {
+    display: none;
+}

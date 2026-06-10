@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tổng Hợp Thực Hành DOM - Module 03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="main-title">Học DOM cùng Zent</h1>
+
+    <p class="text-desc">Đoạn văn mô tả thứ nhất (Class: text-desc)</p>
+    <p class="text-desc">Đoạn văn mô tả thứ hai (Class: text-desc)</p>
+
+    <div id="my-box" class="box">
+        Di chuột vào đây!
+    </div>
+
+    <div class="control-buttons">
+        <button id="btn-change">Đổi nội dung & CSS</button>
+        <button id="btn-toggle">Ẩn / Hiện Hộp</button>
+    </div>
+
+    <p style="margin-top: 30px; color: #7f8c8d;"><i>*Mẹo: Hãy gõ phím bất kỳ trên bàn phím và bật F12 (Console) để xem
+            điều kỳ diệu!</i></p>
+
+    <hr style="margin: 50px 0;">
+    <h2>Thực hành Đối tượng Form</h2>
+
+    <form id="my-form"
+        style="max-width: 400px; margin: 0 auto; text-align: left; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+        <div style="margin-bottom: 15px;">
+            <label for="username" style="display: block; margin-bottom: 5px; font-weight: bold;">Tên đăng nhập:</label>
+            <input type="text" id="username" placeholder="Nhập tài khoản..."
+                style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+            <small id="error-user" style="color: red; display: none;">Tên đăng nhập không được để trống!</small>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="gender" style="display: block; margin-bottom: 5px; font-weight: bold;">Giới tính:</label>
+            <select id="gender" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                <option value="nam">Nam</option>
+                <option value="nu">Nữ</option>
+            </select>
+        </div>
+
+        <button type="submit" style="width: 100%; background-color: #2ecc71;">Đăng Ký Ngay</button>
+    </form>
+
+    <div id="form-result" style="margin-top: 20px; font-weight: bold; color: #2c3e50;"></div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
